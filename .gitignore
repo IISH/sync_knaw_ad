@@ -1,4 +1,4 @@
-settings/config.php
-sync_knaw_ad.sh
+config.php
+settings.sh
 .idea
 .git

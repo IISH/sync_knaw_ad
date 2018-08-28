@@ -18,10 +18,6 @@ require_once __DIR__ . "/syncinfo.inc.php";
 $dbConn = new class_pdo( $databases['default'] );
 
 //
-if ( !isset($settings) ) {
-	$settings = array();
-}
-
 if (php_sapi_name() === 'cli') {
 	$EOL = PHP_EOL;
 } else {
